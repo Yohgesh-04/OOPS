@@ -1,0 +1,28 @@
+class Rectangle {
+	
+	float length, breadth;
+	
+	public void getDetails(float x, float y) {
+		
+		this.length = x;
+		this.breadth = y;
+	}
+	
+	public float area() {
+		
+		float area = length * breadth;
+		return area;
+	}
+}
+
+public class class_objects {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle obj1 = new Rectangle();
+		obj1.getDetails(10, 20);
+		System.out.println("Area of rectangle = " +obj1.area());
+
+	}
+
+}
